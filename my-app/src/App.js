@@ -1,10 +1,12 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar';
+import NavbarSimple from './components/NavbarSimple';
 
 function App() {
   return (
     <div className={css.App}>
       <Sidebar />
+      <NavbarSimple />
     </div>
   );
 }
