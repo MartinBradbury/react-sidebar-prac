@@ -1,6 +1,7 @@
 import React from "react";
 import css from './css/NavBarSimple.module.css';
 
+
 class NavbarSimple extends React.Component {
     constructor(props) {
         super(props);
@@ -23,12 +24,13 @@ class NavbarSimple extends React.Component {
 
     render() {
         return(
+            <>
             <div className={css.NavBar}>
                 <h1>My Gallery</h1>
                 <span>{this.state.greeting}</span>
-                <button onClick={() => this.handleClick()}>{this.state.button}</button>
-
+                <button onClick={() => this.handleClick()}>{this.state.button}</button> 
             </div>
+            </>
         )
     }
 

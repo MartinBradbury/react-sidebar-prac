@@ -40,3 +40,12 @@
     background-color: #e6ecf0;
     border: lightgrey solid 1px;
 }
+
+.NavBar p {
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.NavBar input {
+    margin-right: 1rem;
+}
