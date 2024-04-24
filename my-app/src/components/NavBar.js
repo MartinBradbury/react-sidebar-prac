@@ -10,9 +10,9 @@ function NavBar(props) {
         ) : (
             <div className={css.NavBar}>
                 <p>Username:</p>
-                <input></input>
+                <input placeholder="Username"></input>
                 <p> Password:</p>
-                <input></input>
+                <input placeholder="password"></input>
                 <button onClick={props.myClickOut}>Submit</button>
             </div>
         )}
